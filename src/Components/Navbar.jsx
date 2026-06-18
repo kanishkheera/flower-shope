@@ -27,7 +27,6 @@ export default function Navbar() {
         <NavLink
           key={index}
           to={ele.path}
-          className="text-gray-100"
           className={({ isActive }) => {
             return isActive ? styles.active : styles.default;
           }}
